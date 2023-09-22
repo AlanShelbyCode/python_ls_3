@@ -55,8 +55,9 @@ class Controller:
         location = input("Location: ")
         name = input("Name: ")
         salon_director_id = int(input("Salon director ID: "))
-        salon = Salon(id, location, name, salon_director_id)
+        salon = Salon(id, location, name, salon_director_id )
         salon.save()
+
 
     def get_plant(self):
         id = int(input("ID: "))
