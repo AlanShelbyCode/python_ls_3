@@ -54,7 +54,7 @@ class Controller:
         id = int(input("ID: "))
         location = input("Location: ")
         name = input("Name: ")
-        salon_director_id = int(input("Salon director ID: "))
+        salon_director_id = int(input("Salon director ID:  "))
         salon = Salon(id, location, name, salon_director_id )
         salon.save()
 
